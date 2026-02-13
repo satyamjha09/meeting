@@ -62,6 +62,8 @@ GET /meetings: Returns all meetings. You can filter this by userId in the query 
 
 PUT/DELETE /meetings/:id: For managing existing bookings.
 
+@ Link of the Video -> https://drive.google.com/file/d/1oNSM92SD8vDJO1p1LA027zs_dZ_UQzmG/view?usp=sharing
+
 📝 My Assumptions & Trade-offs
 Date Format: I’m assuming the frontend sends dates in ISO 8601 format (UTC). Dealing with timezones on the backend is a nightmare, so keeping everything in UTC is the safest bet.
 
