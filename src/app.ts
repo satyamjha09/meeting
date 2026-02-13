@@ -29,8 +29,8 @@ app.get("/health", (req: Request, res: Response) => {
 });
 
 // API Routes
-app.use("/api/meetings", meetingRoutes);
-app.use("/api/users", userRoutes);
+app.use("meetings", meetingRoutes);
+app.use("users", userRoutes);
 
 // 404 handler - Route not found
 app.use((req: Request, res: Response) => {
